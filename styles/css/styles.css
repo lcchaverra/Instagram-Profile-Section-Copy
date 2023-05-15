@@ -306,6 +306,9 @@
   .side-menu .desaparecen {
     display: none;
   }
+  .side-menu .menu-item {
+    padding-top: 0;
+  }
 }
 @media screen and (max-width: 555px) {
   .side-menu {

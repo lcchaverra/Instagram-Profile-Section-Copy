@@ -103,6 +103,9 @@
     .desaparecen {
       display: none;
     }
+    .menu-item {
+      padding-top: 0;
+    }
   }
   @media screen and (max-width: 555px) {
     gap: 2em;
