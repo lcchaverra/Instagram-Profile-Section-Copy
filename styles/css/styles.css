@@ -307,7 +307,7 @@
     display: none;
   }
   .side-menu .menu-item {
-    padding-top: 0;
+    padding-top: 0.2rem;
   }
 }
 @media screen and (max-width: 555px) {
