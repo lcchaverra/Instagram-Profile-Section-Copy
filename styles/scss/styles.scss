@@ -1,0 +1,30 @@
+@import "movil-ex-head.scss";
+@import "header.scss";
+@import "variables.scss";
+@import "darkTheme.scss";
+@import "sidebar.scss";
+@import "body.scss";
+@import "sectionsMenu.scss";
+@import "grid-content";
+@import "footer";
+
+//Reinicio de Los Estilos
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+%body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: var(--bg-color2);
+    color: var(--letter-color);
+}
+
+body {
+    @extend %body;
+}

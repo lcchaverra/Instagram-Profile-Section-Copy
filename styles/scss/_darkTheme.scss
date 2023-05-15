@@ -1,0 +1,11 @@
+// /* Media Query para adaptar el color al mismo del sistema */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg-color: #53575a;
+    --bg-color2: #000000;
+    --letter-color: #eee;
+    --letter-color2: #eeeeeeaf;
+    --primary-color: #ff3c32;
+    --shadow: 2px 2px 7px 0 rgba(0, 0, 0, 0.795);
+  }
+}
